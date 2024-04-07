@@ -1,0 +1,135 @@
+body {
+    background: white;
+  }
+  
+  .primeira {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    width: 100%;
+    border: 2px solid gray;
+  }
+  
+  .segunda {
+    background-image: url('certo.png');
+    padding: 3px;
+    width: 100%;
+  }
+  
+  .login {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #4682B4;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .caixa {
+    height: 35px;
+    width: 250px;
+  }
+  
+  .btn:hover {
+    text-decoration: underline;
+  }
+  
+  .formulario {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mini {
+    font-size: 15px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+  
+  }
+  
+  .azul {
+    margin-right: 20px;
+    color: #00008B;
+  }
+  
+  .comeco {
+    margin-right: 20px;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+  }
+  
+  .btn3 {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+  }
+  
+  .btn3:hover {
+    color: #0000CD;
+  }
+  
+  .logo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar2 {
+    color: black
+  }
+  
+  
+  .fim {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+  }
+  
+  .btn2 {
+    display: block;
+    margin-left: 40px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 6px;
+  
+  }
+  
+  .btn5 {
+  
+    display: block;
+    margin-left: 700px;
+    background-color: #007BFF;
+    color: white;
+    padding: 6px 9px; 
+  }
+  
+  .fimextra {
+    margin-left: 150px;
+    color: black;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+  }
