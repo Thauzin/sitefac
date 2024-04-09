@@ -1,7 +1,5 @@
 <html>
-
 <head>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Unicesumar</title>
@@ -32,9 +30,11 @@
             <ul class="navbar">
                 <li class="azul"> <button class="btn3" type="button">Unicesumar </button> </li>
                 <li class="comeco"> | </li>
+                <li class="azul"> <button class="btn3" type="button">Presencial Maringá </button> </li>
+                <li class="comeco"> | </li>
                 <li class="azul"> <button class="btn3" type="button">Formulários </button> </li>
                 <li class="comeco"> | </li>
-                <li class="comeco"> Login (AVA/Ambiente Online) </li>
+                <li class="comeco2"> Submeter Projetos </li>
             </ul>
         </nav>
     </header>
@@ -42,21 +42,113 @@
     <br>
     <header class="login">
         <nav>
-            <h1> Login (AVA/Ambiente Online) </h1>
+            <h1> Submeter Projetos </h1>
+            <hr>
         </nav>
     </header>
-    <header class="formulario">
-        <h3 class="mini"> Professores, no primeiro acesso devem procurar o R.H. </h3>
-        <input type="radio" id="rdbSexoMasculino" name="rdbSexo" value="M"> Aluno
-        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="F"> Professor
-        <input type="radio" id="rdbSexoOutro" name="rdbSexo" value=“O"> Responsavel
-        <br>
-        <br>
-        <input class="caixa" type="text" name="txtNome" placeholder="R.A aluno">
-        <br>
-        <br>
-        <input class="caixa" type="password" name="txtSenha" placeholder="Senha">
-        <li> <button class="btn5" type="button">ACESSAR</button></li>
+    
+    <header class="titulo2">
+        <nav>
+            <h1> SUBMISSÃO </h1>
+            <h1> Projetos e Relatórios </h1>
+        </nav>
+    </header>
+    <header class="projeto"> 
+        <h4> Tipo de projeto </h4>
+        <input type="radio" id="rdbSexoMasculino" name="rdbSexo" value="A"> Iniciação Científica 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="B"> Inovação Tecnológica e Inovação 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="C"> Pesquisa Docente 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="D"> Relatório Final 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="E"> Inovação técnologica e Inovação 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="F"> Iniciação Científica Voluntário 
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="G"> Outros
+    </header>
+    <br> 
+    <header class="docente">
+        <h4> Docente </h4>
+        <input type="radio" id="rdbSexoMasculino" name="rdbSexo" value="A"> do PRESENCIAL Unicesumar
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="B"> do EAD Unicesumar 
+    </header>
+    <br>
+    <header class="desenvolvimento">
+        <h4 class="aaa"> Projeto para concorrer ao Processo de Seleção de Bolsas PIBIC/PIBITI? </h4>
+        <input class="aaa"type="radio" id="rdbSexoMasculino" name="rdbSexo" value="A"> Não
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="B"> Sim 
+    </header>
+    <br>
+    <header class="matricula">
+        <div class="oculos">
+            <h4> Matricula (mesmo do Docente Online) </h4>
+            <input class="quadrado" type="text" name="txtNome" placeholder="Matricula do Docente Online">
+        </div>
+       <div class="Mextra">
+            <h4> Nome do Docente </h4>
+            <input class="quadrado" type="text" name="txtNome" placeholder="Nome do Docente">
+       </div>
+    </header>
+    <br>
+    <header class="desenvolvimento">
+        <h4 class="aaa"> O projeto vinculado a alguma das linhas da ODS (Objetivos de Desenvolvimento Sustentável): </h4>
+        <input class="aaa"type="radio" id="rdbSexoMasculino" name="rdbSexo" value="A"> Não
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="B"> Sim 
+        <div class="botaoextra"> 
+            <button class="btn" type="button">Clique aqui e veja o significado de cada um dos 17 ODS </button> 
+        </div>
+    </header>
+    <br>
+    <header class="desenvolvimento">
+        <h4 class="aaa"> O projeto tem relação com RESPONSABILIDADE SOCIAL?: </h4>
+        <input class="aaa"type="radio" id="rdbSexoMasculino" name="rdbSexo" value="A"> Não
+        <input type="radio" id="rdbSexoFeminino" name="rdbSexo" value="B"> Sim  
+    </header>
+    <header class="projeto">
+        <h4>O projeto será executado em algum dos laboratórios de pesquisa abaixo:</h4>
+            <select class="forms" id="cmbLinguagens" name="cmbLinguagens" placeholder="Escolha um item">
+            <option value="1">Não será utilizado nenhum laboratório</option>
+            <option value="2">AGROLAB</option>
+            <option value="3">BIOCELGEN</option>
+            <option value="4">LIABQ</option>
+            <option value="5">LIIPS</option>
+            <option value="6">Será realizado em outro laboratório</option>
+            </select>
+    </header>
+    <header class="projeto">
+        <h4>Grande Área</h4>
+            <select class="forms" id="cmbLinguagens" name="cmbLinguagens" placeholder="Escolha um item">
+            <option value="1">1 - Ciências Exatas e da Terra</option>
+            <option value="2">2 - Ciências Biológicas</option>
+            <option value="3">3 - Engenharias</option>
+            <option value="4">4 - Ciências da Saúde</option>
+            <option value="5">5 - Ciências Agrárias</option>
+            <option value="6">6 - Ciências Sociais Aplicadas</option>
+            <option value="7">7 - Ciências Humanas</option>
+            <option value="8">8 - Linguisticas, Letras e Artes</option>
+            </select>
+    </header>
+    <header class="projeto">
+        <h4>Unidade</h4>
+            <select class="forms" id="cmbLinguagens" name="cmbLinguagens" placeholder="Escolha um item">
+            <option value="1">MARINGÁ</option>
+            <option value="2">CAMPO GRANDE</option>
+            <option value="3">CORUMBÁ</option>
+            <option value="4">CURITIBA</option>
+            <option value="5">LONDRINA</option>
+            <option value="6">PONTA GROSSA</option> 
+            </select>
+    </header>
+    <header class="docente">
+        <h4> Título do Projeto </h4>
+        <input class="forms" type="text" name="txtNome" placeholder="Título do Projeto">
+    </header>
+    <header class="docente">
+        <h4> Resumo do Projeto </h4>
+        <input class="forms2" type="text" name="txtNome"> 
+    </header>
+    <header class="titulo3">
+        <nav>
+            <h1> IDENTIFICAÇÃO DA EQUIPE EXECUTORA </h1>
+            <h1> Docentes e Pesquisadores Externos </h1>
+        </nav>
     </header>
 </body>
 

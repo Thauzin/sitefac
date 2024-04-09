@@ -1,18 +1,64 @@
 body {
     background: white;
   }
+
+  hr {
+    color: #ebebeb; 
+    width: 1300px;
+  }
   
   .primeira {
     background-color: white;
     color: black;
-    padding: 3px;
+    padding: 2px;
     width: 100%;
-    border: 2px solid gray;
+    border: 3px solid #EDEDED; 
+  }
+
+  .projeto {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .docente {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .desenvolvimento {
+    font-size: 15px;
+    margin-left: 20px; 
+    height: 80px;
+    border: 1px solid #c9c9c9; 
+  }
+
+  .matricula {
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+    display: flex; /* Tornando os elementos filhos flexíveis */
+    flex-direction: row;
+    height: 80px;
+    border: 2px solid #E3E3E3;
+  }
+
+  .Mextra {
+    margin-left: 200px;
+  }
+
+  h4 {
+    margin-right: 10px; /* Ajusta a margem direita do h4 */
+    margin-bottom: 2; /* Remove a margem inferior do h4 */
+  }
+
+  .quadrado {
+    width: 400px;
+    height: 30px;
   }
   
   .segunda {
     background-image: url('certo.png');
-    padding: 3px;
+    padding: 2px;
     width: 100%;
   }
   
@@ -20,28 +66,47 @@ body {
     padding: 10px;
     justify-content: center;
     text-align: center;
-    color: #4682B4;
+    color: #20659F; 
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+
+  .oculos {
+    margin-left: 25px;
+  }
+
+  .aaa{
+    margin-left: 25px;
+  }
+
+  .titulo2 {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #0240FB; 
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
-  .caixa {
-    height: 35px;
-    width: 250px;
+
+  .titulo3 {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #333333;  
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
   .btn:hover {
     text-decoration: underline;
   }
-  
-  .formulario {
-    justify-content: center;
-    text-align: center;
+
+  .botaoextra{
+    color: #338FD0; 
+    text-align: right;
   }
-  
-  .mini {
-    font-size: 15px;
-  }
+
   
   ul {
     display: flex;
@@ -52,11 +117,16 @@ body {
   
   .azul {
     margin-right: 20px;
-    color: #00008B;
+    color: #6E89CE;
   }
   
   .comeco {
     margin-right: 20px;
+    color: #64717A;
+  }
+
+  .comeco2 {
+    color: #333333; 
   }
   
   .btn {
@@ -101,7 +171,7 @@ body {
   
   .fim {
     margin-left: 10px;
-    color: black;
+    color: #777777; 
     font-weight: bold;
     justify-content: right;
     text-align: right;
@@ -110,26 +180,30 @@ body {
   .btn2 {
     display: block;
     margin-left: 40px;
-    background-color: #007BFF;
+    background-color: #07A7F8;
     color: white;
-    border-radius: 5px;
+    border-radius: 5px; 
     padding: 3px 6px;
   
   }
   
-  .btn5 {
-  
-    display: block;
-    margin-left: 700px;
-    background-color: #007BFF;
-    color: white;
-    padding: 6px 9px; 
-  }
   
   .fimextra {
     margin-left: 150px;
-    color: black;
+    color: #777777; 
     font-weight: bold;
     justify-content: right;
     text-align: right;
-  }
+  } 
+
+.forms{
+  width: 1300px;
+  height: 30px; 
+  border: 1px solid #CCCCCC; 
+}
+
+.forms2 {
+  width: 1300px;
+  height: 80px; 
+  border: 1px solid #CCCCCC; 
+}
