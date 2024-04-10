@@ -42,8 +42,50 @@ body {
     border: 2px solid #E3E3E3;
   }
 
+  .matricula2 {
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #F5F5F5;
+    display: flex; /* Tornando os elementos filhos flexíveis */
+    flex-direction: row;
+    height: 80px;
+    border: 2px solid #E3E3E3;
+  }
+
+  .matricula3 {
+    font-size: 15px;
+    margin-left: 15px;
+    background-color: #F5F5F5;
+    display: flex; /* Tornando os elementos filhos flexíveis */
+    flex-direction: column;
+    height: 75px;
+    border: 2px solid #E3E3E3;
+  }
+
+  .ultimo {
+    margin-left: 15px;
+    font-size: 18px;
+    background-color: white;
+    display: flex; /* Tornando os elementos filhos flexíveis */
+    flex-direction: row;
+    height: 30px;
+    width: 1250px;
+    border: 2px solid #E3E3E3;
+  }
+
+  h5 {
+    margin-top: 8px;
+    color: #6e7378;
+    margin-left: 15px;
+  }
+  
+
   .Mextra {
     margin-left: 200px;
+  }
+
+  .oculos2 {
+    margin-left: 60px;
   }
 
   h4 {
@@ -54,6 +96,13 @@ body {
   .quadrado {
     width: 400px;
     height: 30px;
+    border: 1px solid #CCCCCC;
+  }
+
+  .quadrado2 {
+    width: 170px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
   }
   
   .segunda {
@@ -104,6 +153,15 @@ body {
 
   .botaoextra{
     color: #338FD0; 
+    text-align: right;
+  }
+
+  h7 {
+    color: #31708F; 
+    margin-right: 10px;
+  }
+
+  .hh {
     text-align: right;
   }
 
@@ -186,8 +244,61 @@ body {
     padding: 3px 6px;
   
   }
+
+  .mais {
+    display: block;
+    margin-left: 35px;
+    background-color: #337AB7;
+    align-self: center;
+    color: white;
+    width: 65px;
+    height: 40px;
+    border: none;
+    font-size: 30px;
+  }
+
+  .mais:hover {
+    background-color: #2E6DA4; 
+  }
+
+  .btnultimo {
+    display: block;
+    margin-left: 20px;
+    background-color: #efefef; 
+    align-self: center;
+    color: black;
+    height: 20px;
+    border: 1px solid #767676; 
+    font-size: 12px;
+  }
+
+
   
+  .btnultimo:hover {
+    background-color: #CCCCCC; 
+  }
+
+  .enviar {
+    display: block;
+    background-color: #337AB7; 
+    align-self: center;
+    color: white;
+    height: 30px;
+    width: auto;
+    border: 1px solid #767676; 
+    font-size: 12px;
+    justify-content: flex-end;
+  }
+
+  .enviar:hover {
+    background-color: #2E6DA4; 
+  }
   
+  .linha {
+    display: flex;
+    justify-content: flex-end;
+}
+
   .fimextra {
     margin-left: 150px;
     color: #777777; 
@@ -198,6 +309,12 @@ body {
 
 .forms{
   width: 1300px;
+  height: 30px; 
+  border: 1px solid #CCCCCC; 
+}
+
+.quad{
+  width: 250px;
   height: 30px; 
   border: 1px solid #CCCCCC; 
 }
